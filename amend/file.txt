@@ -1,1 +1,7 @@
 initial value
+<<<<<<< HEAD
+Second Value
+=======
+Second Value [این متن چرت داخل براکت باید حذف شود]
+This is third value
+>>>>>>> 2ae9759 (Add third value to file.txt)
