@@ -1,0 +1,113 @@
+/*  
+    Set the container div and font settings.
+*/
+body{
+    background-color: #386d82;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+/*
+    The container holds all objects in this page. So I used absolute position.
+*/
+.container {
+    position: absolute;
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* 
+    The page has two rectangels, this designs the left one that is bigger and wider.
+    The radius and background color also set.
+*/
+
+.left_rect{
+    width: 60%;
+    position: relative;
+    left: 30%;
+    top: 30%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 50px 50px 50px 50px;
+    margin: auto;
+    background-color: #fdfeff;
+}
+
+/* 
+    The page has two rectangels, this designs the right one that is smaller.
+    The radius and background color also set.
+*/
+.right_rect {
+    width: 20%;
+    position:relative;
+    left: 30%;
+    top: 30%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 50px 50px 50px 50px;
+    margin: auto;
+    background-color: #fdfeff;
+}
+
+/* 
+    The image setting; including loading, positoin, size and background
+*/
+#image {
+    position: relative ;
+    top: 5%;
+    left: 5%;
+    width: 35%;
+    height: 35%;
+    background: left/contain content-box border-box no-repeat url("./images/whoisthis.jpg") #fdfeff;
+    border: 0;
+    padding: 5px;
+}
+
+/* 
+    Input account name and button settings; 
+    1. margin 50% set those two to the center
+    2. and display block set the elements as a block
+*/
+input, button{
+    width: 100%;
+    display: block;
+    margin: 50% auto;
+}
+
+/* 
+    Set the name, blog_addr, and location to the right and top of the left-rect
+*/
+#name, #blog_addr, #location {
+    position: relative;
+    left: 50%;
+    top: -150px;
+} 
+
+/* 
+    Set the bio to the left and bo ttom of the left-rect.
+*/
+#bio {
+    position: relative;
+    top: -40px;
+    left: 5%;
+}
+
+/*
+    To display error or success alert by default of error.
+    A rectangle with a red border on the bottom of left-rect.
+*/
+.error {
+    position: relative;
+    display: none;
+    border: 5px solid rgb(246, 106, 106);
+    padding: 3px;
+    width: 85%;
+    left: 20px;
+}
