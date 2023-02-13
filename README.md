@@ -1,1 +1,1 @@
-# WebProgramming Project
+# Web Programming Midterm Project
