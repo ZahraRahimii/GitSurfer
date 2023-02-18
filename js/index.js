@@ -101,7 +101,7 @@ function showError(message) {
     user_name.innerHTML = '<span> Name: No One </span> ';
     user_location.innerHTML = '<span> Location: No one knows! </span>';
     user_blogAddr.innerHTML = '<span> Blog: https://IAmNotAnyOne.com </span>';
-    user_bio.innerHTML = '<span> Bio: I don\'t know who am I either </span>';
+    user_bio.innerHTML = '<span> Bio: I don\'t know who I am either </span>';
     error.style.display = "block";
     error.style.border = "5px solid rgb(246, 106, 106)";
 
